@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email import encoders 
 import sys
 
-fromaddr = "metastream123@gmail.com"
+fromaddr = "ADMIN EMAIL ADDRESS"
 toaddr = sys.argv[1]
 otp = sys.argv[3]
 name = sys.argv[2]
@@ -26,7 +26,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 
 s.starttls() 
 
-s.login(fromaddr, "7[sS+Q8hy'f(]?CZ") 
+s.login(fromaddr, "PASSWORD") 
 
 text = msg.as_string() 
 
