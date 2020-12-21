@@ -1,0 +1,430 @@
+* {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+  --primary-color: #e50914;
+  --secondary-color: #151728;
+  background-color: black;
+  color: white;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+:root::-webkit-scrollbar {
+  display: none;
+}
+#search {
+  height: 40px;
+  width: 50px;
+  visibility: hidden;
+  border-radius: 50px;
+  display: -webkit-inline-flex;
+  position: absolute;
+  margin-left: calc(50% - 290px);
+  margin-top: 13px;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  transition: 0.3s;
+  color: white;
+  z-index: 20;
+}
+
+#search-input {
+  height: 100%;
+  width: 0px;
+  font-size: 20px;
+  background: none;
+  color: white;
+  margin-left: 0px;
+  padding-bottom: 12px;
+  outline: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+#search.active {
+  width: 350px;
+  color: white;
+  margin-left: calc(50% - 435px);
+  border: solid 2px;
+}
+#search-input.active {
+  width: 260px;
+  color: white;
+  visibility: visible;
+}
+.fa {
+  color: var(--primary-color);
+}
+.fa:hover {
+  opacity: 0.7;
+}
+#search-input.active #search {
+  margin-left: 20px;
+  color: white;
+  border: solid 2px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("background.jpg") no-repeat ;
+  background-size: 100% 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.login-box {
+  width: 64%;
+  height: 90vh;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 50px;
+}
+.login-box a {
+  color: #e50914;
+}
+.login-box h1 {
+  font-family: 'DejaVu Serif';
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.login-box input:-webkit-autofill,
+.login-box input:-webkit-autofill:hover,
+.login-box input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  box-shadow: 0 0 0 px 1000px #000 inset;
+  border-bottom: 1px solid #000;
+}
+.login-box input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #ffff;
+  font-size: 16px;
+}
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 100px;
+}
+.showcase {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  opacity: 1;
+}
+.showcase-top {
+  position: fixed;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  height: 64px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.showcase-top img {
+  margin-top: -10px;
+  width: 250px;
+}
+.showcase-top img:hover {
+  opacity: 0.7;
+}
+#userlogout {
+  visibility: hidden;
+  color: white;
+  background: var(--primary-color);
+  font-size: 1rem;
+  width: 80px;
+  height: 35px;
+}
+#userlogout:hover {
+  opacity: 0.7;
+}
+#avatar {
+  width: 45px;
+  height: 45px;
+}
+#avatar:hover {
+  opacity: 0.7;
+}
+#myaccount {
+  display: inline-block;
+  margin-left: calc(100% - 440px);
+  visibility: hidden;
+}
+.showcase-top button {
+  position: absolute;
+  margin-top: -10px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  outline: none;
+  font-size: 1rem;
+  width: 80px;
+  height: 35px;
+  top: 44px;
+  right: 10px;
+  transform: translate(-50%,-50%);
+  background: var(--primary-color);
+}
+.showcase-top button:hover {
+  color: #000;
+}
+.showcase-content {
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15em;
+  opacity: 1;
+}
+.showcase-content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 0 2rem;
+}
+.showcase-content p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: top;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+  border-radius: 2px;
+}
+.btn-rounded {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 50px;
+  width: auto;
+}
+.btn-xl {
+  outline: none;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  width: 320px;
+  border-radius: 10px;
+  height: auto;
+}
+#footer {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  background-color: var(--secondary-color);
+  height: 120px;
+}
+#connect {
+  margin: auto auto;
+  margin-left: 360px;
+  display: inline-flex;
+}
+#connect #rights {
+  margin-left: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#facebook {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin: auto auto;
+}
+#connect p {
+  margin: auto auto;
+  color: white;
+}
+#facebook:hover {
+  opacity: 0.7;
+}
+#aboutDevelopers {
+  display: block;
+  margin: auto 0;
+  margin-right: 100px;
+  align-items: center;
+}
+#aboutDevelopers h3 {
+  color: white;
+}
+#contribute {
+  height: 50px;
+  border-radius: 5px;
+  width: auto;
+  padding: 4px 10px;
+	background-color: green;
+	font-size: large;
+  border: solid 1px black;
+  margin-left: 64px;
+}
+#contribute:hover {
+  opacity: 0.8;
+}
+#contribute i {
+  color: black;
+}
+#contribute i:hover {
+  color: black;
+  opacity: 1;
+}
+#contribute a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 360px) {
+  body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("background1.jpg") no-repeat;
+      background-size: auto 800px;
+      font-family: sans-serif;
+  }
+  .showcase-top img {
+      width: 200px;
+      position: absolute;
+      opacity: 1;
+      top: 10px;
+  }
+  .showcase-top button {
+      position: absolute;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+      display: inline-block;
+      color: #ffffff;
+      outline: none;
+      font-size: 0.9rem;
+      width: 60px;
+      height: 35px;
+      top: 44px;
+      right: 0px;
+      transform: translate(-50%,-50%);
+      background: var(--primary-color);
+  }
+  .btn {
+      display: inline-block;
+      background: var(--primary-color);
+      color: #fff;
+      padding: 0.4rem 1.3rem;
+      font-size: 1rem;
+      text-align: center;
+      border: top;
+      cursor: pointer;
+      margin-right: 0.5rem;
+      outline: none;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+      border-radius: 2px;
+  }
+  .btn-rounded {
+      border-radius: 5px;
+      position: relative;
+      margin-right: 20px;
+      margin-top: 50px;
+  }
+  .fb-login-button {
+      padding-top: 20px;
+      position: relative;
+      padding-left: 0%;
+  }
+  .login-box {
+      width: 100%;
+      height: 70vh;
+      background: rgba(25,25,25,0.9);
+      color: #fff;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      box-sizing: border-box;
+      padding: 50px;
+  }
+}
+.free-space {
+  background: linear-gradient(0,0,0,0);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#carousels {
+  background: linear-gradient(0,0,0,0);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.item img {
+  width: 100%;
+}
+.container {
+  max-width: 1400px;
+  height: 140px;
+  margin: 100px auto;
+  visibility: hidden;
+}
+.container h1 {
+  color: white;
+  margin-left: -40px;
+}
+.logo-slider .item {
+  background-color: black;
+  box-shadow: 0 4px 5px black;
+  border: 2px solid #111;
+  transition: all ease 0.3s;
+}
+.logo-slider .slick-slide {
+  margin: 15px;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+.item:hover {
+  display: block;
+  transition: all ease 0.2s;
+  transform: scale(1.1) translateY(-5px);
+}
