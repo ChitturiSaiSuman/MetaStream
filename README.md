@@ -38,11 +38,11 @@ Users can also choose from wide range of high-quality Stock videos of different 
 * Programmers who are interested in working on the project by further developing it or fix existing bugs.
 ### 2.2. Operating Environment
 * Operating System
-1. Windows
-2. Linux
+    1. Windows
+    2. Linux
 * Application Server
-1. Apache Tomcat v9.0
+    1. Apache Tomcat v9.0
 * Media Server
-1. Google Cloud
+    1. Google Cloud
 * Database
-1. MySQL
+    1. MySQL
