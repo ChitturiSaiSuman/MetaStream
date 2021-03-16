@@ -192,3 +192,37 @@ The following list specifies User Activities while using our Application.
 - 6.15. Home Page (after log out)
 
 ![After Log out](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-20_49_34.png)
+
+## 7. Conclusion and Future Work
+
+### 7.1. Conclusion
+
+    The project “Meta Stream” has been developed as per the requirement specification. The complete functionality has been thoroughly tested, to eliminate bugs and enhance the user experience.
+
+    The design, implementation and the output reports are presented in this project report. The entire project was meticulously designed to ensure seamless user experience and easier incorporation of future modules.
+
+### 7.2. Future Work
+
+    The goals of this project were purposely kept within what was believed to be attainable within the allotted timeline and resources. As such, many improvements can be made upon this initial design. That being said, it is felt that the design could be replicated to a much larger scale. The following are the features we wish to add in the future:
+
+        - Incorporate ML to understand usage patterns of users and improve the recommendation algorithm
+        - Introduce paid subscriptions which include access to exclusive content from leading content creators.
+        - Improve the overall security of the platform, making it less vulnerable to data breaches.
+
+## 8. References
+
+- [1](https://stackoverflow.com)
+- [2](https://www.w3schools.com)
+- [3](https://codepen.io)
+- [4](https://www.geeksforgeeks.org)
+- [5](https://www.freecodecamp.org)
+- [6](https://www.tutorialspoint.com)
+- [7](https://www.javatpoint.com)
+- [8](https://www.coursera.org)
+- [9](https://www.udemy.com)
+- [10](https://stackexchange.com)
+- [11](https://developers.google.com/drive)
+- [12](https://devdocs.io)
+- [13](https://developer.mozilla.org/en-US/docs/Web)
+- [14](https://tympanus.net/codrops/css_reference)
+- [15](https://www.codecademy.com)
