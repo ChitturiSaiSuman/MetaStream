@@ -1,5 +1,6 @@
 # MetaStream
-**Video-on-Demand Platform developed as Full Stack Mini Project** 
+**Video-on-Demand Platform developed as Full Stack Mini Project**
+
 Co-Developer: @300-iq
 ## 1. Introduction
 ### 1.1. Overview
