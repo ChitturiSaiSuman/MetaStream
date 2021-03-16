@@ -125,9 +125,13 @@ The following list specifies User Activities while using our Application.
 - Contribute: User can contribute Video Ideas or Suggestions and the Admin team will try to upload the Video at the earliest.
 
 ## 5. Dependencies
-1. Google Drive API (Node JS)
-2. MYSQL Database
-3. XAMPP Server
-4. Slick JS
-5. Bootstrap
-6. JQuery
+- Google Drive API (Node JS)
+- MYSQL Database
+- XAMPP Server
+- Slick JS
+- Bootstrap
+- JQuery
+
+## 6. Results
+- 6.1. Home Page (Before Login)
+![Home Page(before Login)](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-20_49_34.png)
