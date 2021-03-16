@@ -107,3 +107,5 @@ Online help and FAQs are provided in the User Documentation
 
 Our Application uses both streaming protocols and HTTP-based protocols. Streaming protocols like Real-Time Messaging Protocol (RTMP) enable speedy video delivery using dedicated streaming servers, whereas HTTP-based protocols rely on regular web servers to optimize the viewing experience and quickly scale
 
+- Data Flow Diagram
+![Data Flow Diagram](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Structure.png)
