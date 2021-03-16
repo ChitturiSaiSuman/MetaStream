@@ -95,10 +95,15 @@ Online help and FAQs are provided in the User Documentation
 - Streaming in 2160P UHD
     - Processor: 2.6Ghz (dual core) or 4.0Ghz (single Core) processor.
     - Graphics: Nvidia/ATi having bare minimum 512MB Video RAM and core clock 1.0Ghz.
-    
+
 ### 3.2. Software Interfaces
 
 - JavaScript must be enabled for browser playback.
 - Popup and Ad-blockers can inhibit playback.
 - Flash: 15 or higher.
 - Browser: Internet Explorer 9.0 or later, Mozilla Firefox 17 or later, Google Chrome 36 or later, Safari 5.0 or later.
+
+### 3.4. Communication Interfaces
+
+Our Application uses both streaming protocols and HTTP-based protocols. Streaming protocols like Real-Time Messaging Protocol (RTMP) enable speedy video delivery using dedicated streaming servers, whereas HTTP-based protocols rely on regular web servers to optimize the viewing experience and quickly scale
+
