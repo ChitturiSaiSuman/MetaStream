@@ -48,9 +48,10 @@ Users can also choose from wide range of high-quality Stock videos of different 
     1. MySQL
 
 ### 2.3. Design and Implementation Constraints
-The Application uses modular design where every feature is wrapped into a separate
+- The Application uses modular design where every feature is wrapped into a separate
 module and the modules depend on each other through well-written APIs. There are several
 APIs available to make plugin development easy.
+
     - 2.3.1. Frontend
         - The Frontend is implemented using HTML, CSS and Java Script.
     - 2.3.2. Backend
