@@ -51,16 +51,16 @@ Users can also choose from wide range of high-quality Stock videos of different 
 The Application uses modular design where every feature is wrapped into a separate
 module and the modules depend on each other through well-written APIs. There are several
 APIs available to make plugin development easy.
-    * 2.3.1. Frontend
-        The Frontend is implemented using HTML, CSS and Java Script.
-    * 2.3.2. Backend
-        2.3.2.1 Backend Application
+    - 2.3.1. Frontend
+        - The Frontend is implemented using HTML, CSS and Java Script.
+    - 2.3.2. Backend
+        - 2.3.2.1 Backend Application
             The Backend consists of server-side application designed using Java/Python that serves requests of clients.
-        2.3.2.2. Database
+        - 2.3.2.2. Database
             Database used is MySQL. It is used for storing User Information and Content Information.
-        2.3.2.3. Server
+        - 2.3.2.3. Server
             Server used is Apache Tomcat v9.0
-        2.3.2.4. Storage
+        - 2.3.2.4. Storage
             The application uses Google Cloud Storage to store media.
 ### 2.4. User Documentation
 Online help and FAQs are provided in the User Documentation
