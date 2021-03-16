@@ -18,3 +18,17 @@ for us to develop a Video on Demand Platform with enhanced Search Feature and a 
 overall User Experience. We also wanted to learn how Video-on-demand Platforms
 work. So, we wanted to develop a Video-on-demand platform which is Powerful and
 User-friendly.
+### 1.3. Problem Definition
+In most of the existing Video-on-demand Platforms, Users are constantly reporting
+about Inaccurate Search Results and finding it difficult to get their way around. So, this
+Project is developed with an Efficient Search Algorithm while also being User Friendly.
+### 1.4. Objectives
+* To improve the search feature on existing VOD's.
+* To create a user-friendly interface, to enable users to navigate through the application without any difficulty.
+* To give user the ability to like, dislike, download a video.
+* To display video statistics like, views, likes, dislikes, downloads, with real-time updating.
+* To provide hassle-free direct downloads to user, without redirection to third party sites.
+### 1.5. Scope
+Meta Stream is a Video-on-Demand Platform that enables people to stream High-
+Quality content. Users can download the content and add Videos to their Watch-list.
+Users can also choose from wide range of high-quality Stock videos of different Genre.
