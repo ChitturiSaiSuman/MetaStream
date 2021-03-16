@@ -1,6 +1,6 @@
 # MetaStream
 **Video-on-Demand Platform developed as Full Stack Mini Project** 
-## Introduction
+## 1. Introduction
 ### 1.1. Overview
 Meta Stream is a Video on Demand Platform that enables people to stream high
 quality content. Users can choose from wide range of High-Quality Stock videos of
@@ -32,3 +32,17 @@ Project is developed with an Efficient Search Algorithm while also being User Fr
 Meta Stream is a Video-on-Demand Platform that enables people to stream High-
 Quality content. Users can download the content and add Videos to their Watch-list.
 Users can also choose from wide range of high-quality Stock videos of different Genre.
+
+### 2.1. User Classes and Characteristics
+* Typical Users, who are looking for some Entertainment.
+* Programmers who are interested in working on the project by further developing it or fix existing bugs.
+### 2.2. Operating Environment
+* Operating System
+1. Windows
+2. Linux
+* Application Server
+1. Apache Tomcat v9.0
+* Media Server
+1. Google Cloud
+* Database
+1. MySQL
