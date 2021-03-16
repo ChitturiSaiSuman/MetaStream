@@ -1,5 +1,6 @@
 # MetaStream
 **Video-on-Demand Platform developed as Full Stack Mini Project** 
+*Co-Developer: @300-iq*
 ## 1. Introduction
 ### 1.1. Overview
 Meta Stream is a Video on Demand Platform that enables people to stream high
