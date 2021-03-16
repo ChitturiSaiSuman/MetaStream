@@ -135,31 +135,46 @@ The following list specifies User Activities while using our Application.
 ## 6. Results
 - 6.1. Home Page (Before Login)
 ![Home Page(before Login)](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-20_49_34.png)
+
 - 6.2. Sign up
 ![Sign up](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-signup-signup-php-2020-12-19-20_54_10.png)
-- 6.1. Verify Account
+
+- 6.3. Verify Account
 ![Verify Account](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-signup-verify-php-2020-12-19-20_59_19.png)
-- 6.2. Login Form
+
+- 6.4. Login Form
 ![Login Form](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-21_00_18.png)
-- 6.1. Home Page (After Login)
+
+- 6.5. Home Page (After Login)
 ![Home Page(After Login)](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-21_05_00.png)
-- 6.2. Home Page (When Explored)
+
+- 6.6. Home Page (When Explored)
 ![Home Page(When Explored)](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-21_07_03.png)
-- 6.1. Video Playback page
+
+- 6.7. Video Playback page
 ![Video Playback Page](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-videoplayback-php-2020-12-19-21_08_58.png)
-- 6.2. Search Results Page with Results
+
+- 6.8. Search Results Page with Results
 ![Search Results](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-search-php-2020-12-19-21_22_06.png)
-- 6.2. Search Results Page with 0 Results
+
+- 6.9. Search Results Page with 0 Results
 ![0 Search Results](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-search-php-2020-12-19-21_24_01.png)
-- 6.2. My Account Dashboard
+
+- 6.10. My Account Dashboard
 ![My Account Dashboard](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-myaccount-dashboard-php-2020-12-19-21_28_29.png)
-- 6.2. Manage Credentials
+
+- 6.11. Manage Credentials
 ![Manage Credentials](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-myaccount-account-myaccount-php-2020-12-19-21_30_15.png)
-- 6.2. Manage Search History
+
+- 6.12. Manage Search History
 ![Manage Search History](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-myaccount-search-history-searchhistory-php-2020-12-19-21_41_20.png)
-- 6.2. Manage Watch History
+
+- 6.13. Manage Watch History
 ![Manage Watch History](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-myaccount-watch-history-watchhistory-php-2020-12-19-21_47_10.png)
-- 6.2. Manage Download History
+
+- 6.14. Manage Download History
 ![Manage Download History](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-myaccount-download-history-downloadhistory-php-2020-12-19-21_49_52.png)
-- 6.2. Home Page (after log out)
+
+- 6.15. Home Page (after log out)
 ![After Log out](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-20_49_34.png)
+
