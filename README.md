@@ -1,2 +1,2 @@
 # MetaStream
-Video-on-Demand Platform as part of Full Stack Mini Project
+**Video-on-Demand Platform developed as Full Stack Mini Project**
