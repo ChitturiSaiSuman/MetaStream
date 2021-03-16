@@ -123,3 +123,11 @@ The following list specifies User Activities while using our Application.
 - Manage Credentials: User can alter his/her Login Credentials anytime.
 - Manage Activity: User can View or delete his/her Account Activity such as Watch History, Search History and Download History.
 - Contribute: User can contribute Video Ideas or Suggestions and the Admin team will try to upload the Video at the earliest.
+
+## 5. Dependencies
+1. Google Drive API (Node JS)
+2. MYSQL Database
+3. XAMPP Server
+4. Slick JS
+5. Bootstrap
+6. JQuery
