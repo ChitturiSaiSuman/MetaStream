@@ -107,5 +107,19 @@ Online help and FAQs are provided in the User Documentation
 
 Our Application uses both streaming protocols and HTTP-based protocols. Streaming protocols like Real-Time Messaging Protocol (RTMP) enable speedy video delivery using dedicated streaming servers, whereas HTTP-based protocols rely on regular web servers to optimize the viewing experience and quickly scale
 
-- Data Flow Diagram
+#### Data Flow Diagram
 ![Data Flow Diagram](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Structure.png)
+
+## 4. Activities
+The following list specifies User Activities while using our Application.
+
+- User Registration: In order to use our Application, user must have an Account.
+- User Login: To continue using the application, user mush Log In.
+- User Log out: User can log out of the application anytime.
+- Watch a Video: User can select and watch any video from wide range of Stock Videos.
+- Search a Video: User can Search any Video of his/her choice using the Search feature provided in the Application.
+- Like or Dislike a Video: User can wish to Like or Dislike a Video.
+- Download a Video: If User wants to save Videos Offline, he/she can download using the Download Feature.
+- Manage Credentials: User can alter his/her Login Credentials anytime.
+- Manage Activity: User can View or delete his/her Account Activity such as Watch History, Search History and Download History.
+- Contribute: User can contribute Video Ideas or Suggestions and the Admin team will try to upload the Video at the earliest.
