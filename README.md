@@ -204,25 +204,24 @@ The design, implementation and the output reports are presented in this project 
 ### 7.2. Future Work
 
 The goals of this project were purposely kept within what was believed to be attainable within the allotted timeline and resources. As such, many improvements can be made upon this initial design. That being said, it is felt that the design could be replicated to a much larger scale. The following are the features we wish to add in the future:
-
     - Incorporate ML to understand usage patterns of users and improve the recommendation algorithm
     - Introduce paid subscriptions which include access to exclusive content from leading content creators.
     - Improve the overall security of the platform, making it less vulnerable to data breaches.
 
 ## 8. References
 
-- [1](https://stackoverflow.com)
-- [2](https://www.w3schools.com)
-- [3](https://codepen.io)
-- [4](https://www.geeksforgeeks.org)
-- [5](https://www.freecodecamp.org)
-- [6](https://www.tutorialspoint.com)
-- [7](https://www.javatpoint.com)
-- [8](https://www.coursera.org)
-- [9](https://www.udemy.com)
-- [10](https://stackexchange.com)
-- [11](https://developers.google.com/drive)
-- [12](https://devdocs.io)
-- [13](https://developer.mozilla.org/en-US/docs/Web)
-- [14](https://tympanus.net/codrops/css_reference)
-- [15](https://www.codecademy.com)
+- [Stackoverflow](https://stackoverflow.com)
+- [W3Schools](https://www.w3schools.com)
+- [Codepen.io](https://codepen.io)
+- [Geeksforgeeks](https://www.geeksforgeeks.org)
+- [freecodecamp](https://www.freecodecamp.org)
+- [Tutorialspoint](https://www.tutorialspoint.com)
+- [javatpoint](https://www.javatpoint.com)
+- [Coursera](https://www.coursera.org)
+- [Udemy](https://www.udemy.com)
+- [Stackexchange](https://stackexchange.com)
+- [Developers.google.com](https://developers.google.com/drive)
+- [Devdocs.io](https://devdocs.io)
+- [developer.mozilla.or](https://developer.mozilla.org/en-US/docs/Web)
+- [tympanus.net](https://tympanus.net/codrops/css_reference)
+- [codecademey.com](https://www.codecademy.com)
