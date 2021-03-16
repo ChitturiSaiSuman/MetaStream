@@ -177,4 +177,3 @@ The following list specifies User Activities while using our Application.
 
 - 6.15. Home Page (after log out)
 ![After Log out](https://raw.githubusercontent.com/ChitturiSaiSuman/MetaStream/main/Docs/Screenshots/screencapture-localhost-Meta-Stream-home-index-php-2020-12-19-20_49_34.png)
-
